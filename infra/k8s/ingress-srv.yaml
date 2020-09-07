@@ -10,7 +10,7 @@ metadata:
     nginx.ingress.kubernetes.io/proxy-send-timeout: "180"
 spec:
   rules:
-    - host: ticketing.dev
+    - host: ticket.dev
       http:
         paths:
           - path: /api/users/?(.*)
@@ -21,3 +21,4 @@ spec:
             backend:
               serviceName: client-srv
               servicePort: 3000
+              
