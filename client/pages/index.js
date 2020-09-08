@@ -15,5 +15,4 @@ LandingPage.getInitialProps = async context => {
 
   return data;
 };
-
 export default LandingPage;
