@@ -1,4 +1,4 @@
 export default () => {
-    return <h1>Landing</h1>;
+    return <h1>Landing1</h1>;
   };
   
